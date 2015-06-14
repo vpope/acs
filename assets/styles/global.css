@@ -1,0 +1,30 @@
+footer {
+    background-color: #e86666;
+    height: 250px;
+    width: 100%;
+}
+
+body {
+    background-color: #f8f8f8;
+    height: 400px;
+}
+
+header {
+    padding-top: 10px;
+    background-color: #ffffff;
+    height: 110px;
+    width: 100%;
+}
+
+.cat,
+.carousel-right { 
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-right-carousel {
+    width: 400px;
+    background-color: orange;
+    height: 452px;
+}
