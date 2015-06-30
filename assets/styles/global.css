@@ -2,21 +2,18 @@ footer {
     background-color: #990000;
     height: 250px;
     width: 100%;
+    margin-top: 15px;
 }
 
 body {
-    background-color: #2262AD;
-    height: 400px;
+    background-color: #f8f8f8;
 }
 
 header {
     background-color: #787878 ;
     height: 75px;
     width: 100%;
-}
-
-.carousel-right { 
-    height: 450px;
+    margin-bottom: 15px;
 }
 
 .text-right-carousel {
@@ -37,13 +34,7 @@ header {
 }
 
 .carousel-placeholder {
-    height: 452px;
     padding-left: 0px;
-}
-
-.homepage-wrapper {
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 
 .contact-footer {
@@ -58,11 +49,11 @@ body {
 .graphics {
     padding-left: 0px;
     float: left;
+    overflow: hidden;
 }
 
 .grapic-img {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    float: left;
+    width: 25%;
 }
+

@@ -36,6 +36,9 @@ module.exports.routes = {
     },
     '/graphic': {
         view: 'graphic'
+    },
+    '/illustration': {
+        view: 'illustration'
     }
 
     /***************************************************************************
