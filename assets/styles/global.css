@@ -18,19 +18,13 @@ header {
 
 .text-right-carousel {
     width: 400px;
+    padding-bottom: 10px;
 }
 
 .placeholder {
     width: 300px;
     height: 90px;
     background-color: #990000;
-}
-
-.pink {
-    padding-top: 20px;
-    width: 400px;
-    height: 300px;
-    background-color: pink;
 }
 
 .carousel-placeholder {
@@ -76,4 +70,8 @@ body {
 
 .carousel-right{
     padding-left: 0px;
+}
+
+.homepage-wrapper {
+    overflow: hidden;
 }
