@@ -9,16 +9,20 @@ body {
     background-color: #f8f8f8;
 }
 
-header {
-    background-color: #787878 ;
-    height: 75px;
-    width: 100%;
+.header {
     margin-bottom: 10px;
 }
 
 .text-right-carousel {
-    width: 400px;
     padding-bottom: 10px;
+}
+
+.text-right-carousel img {
+    max-width: 100%;
+}
+
+.pink img {
+    max-width: 100%;
 }
 
 .placeholder {
@@ -70,8 +74,48 @@ body {
 
 .carousel-right{
     padding-left: 0px;
+    max-width: 100%;
 }
 
 .homepage-wrapper {
     overflow: hidden;
+}
+
+.header,
+.footer {
+    width: 1270px;
+    margin: 0 auto;
+}
+
+.homepage-wrapper {
+    padding-left: 15px;
+}
+
+.body {
+    overflow: hidden;
+}
+
+.project-container {
+    padding-top: 61px;
+}
+
+.logo img {
+    margin-top: -15px;
+}
+
+.navbar-default{
+    background-color: #787878;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #990000;
+    cursor: pointer;
+}
+.border {
+    border-bottom: solid 4px #990000;
+    width: 100%;
 }
