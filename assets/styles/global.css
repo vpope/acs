@@ -7,6 +7,7 @@ footer {
 
 body {
     background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -51,9 +52,9 @@ body {
     padding-right: 15px;
 }
 
-.grapic-img {
+.graphic-img {
     float: left;
-    width: 25%;
+    width: 20%;
     padding-right: 10px;
     padding-bottom: 10px;
 }
@@ -87,7 +88,7 @@ body {
     margin: 0 auto;
 }
 
-.homepage-wrapper {
+.global-wrapper {
     padding-left: 15px;
 }
 
@@ -108,14 +109,27 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #ffffff;
+    color: #e6e6e6;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #990000;
+    color: #ffffff;
     cursor: pointer;
+    background: #990000;
 }
 .border {
-    border-bottom: solid 4px #990000;
+    border-bottom: solid 3px #990000;
     width: 100%;
+}
+
+.project-container {
+    width: 1270px;
+}
+
+.art-thumbnail:hover {
+    cursor: pointer;
+}
+
+.carousel-inner img {
+    margin: auto;
 }
