@@ -2,7 +2,7 @@ footer {
     background-color: #990000;
     height: 250px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 body {
@@ -11,10 +11,10 @@ body {
 }
 
 .header {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.text-right-carousel {
+.text-right-carousel img {
     padding-bottom: 10px;
 }
 
@@ -55,8 +55,8 @@ body {
 .graphic-img {
     float: left;
     width: 20%;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .section-header {
@@ -66,7 +66,7 @@ body {
     padding: 22px 30px;
     width: 200px;
     height: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .graphic-wrapper {
@@ -97,7 +97,7 @@ body {
 }
 
 .project-container {
-    padding-top: 61px;
+    padding-top: 73px;
 }
 
 .logo img {
@@ -132,4 +132,8 @@ body {
 
 .carousel-inner img {
     margin: auto;
+}
+
+.navi-right {
+    padding-right: 10px;
 }

@@ -42,6 +42,18 @@ view: 'homepage'
         },
         '/ball-carousel' : {
         view: 'ball-carousel'
+        },
+        '/cutouts-carousel' : {
+        view: 'cutouts-carousel'
+        },
+        '/grafic-carousel' : {
+        view: 'grafic-carousel'
+        },
+        '/kitchen-carousel' : {
+        view: 'kitchen-carousel'
+        },
+        '/alergy-carousel' : {
+        view: 'alergy-carousel'
         }
 
 
