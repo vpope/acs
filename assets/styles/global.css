@@ -32,10 +32,6 @@ body {
     background-color: #990000;
 }
 
-.carousel-placeholder {
-    padding-left: 0px;
-}
-
 .contact-footer {
     margin-top: 20px;
     color: #ffffff;
@@ -60,13 +56,13 @@ body {
 }
 
 .section-header {
-    background-color: orange;
+    background-color: #990000;
     display: inline-block;
     text-align: center;
-    padding: 22px 30px;
-    width: 200px;
+    padding: 22px 20px;
+    width: 150px;
     height: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .graphic-wrapper {
@@ -122,10 +118,6 @@ body {
     width: 100%;
 }
 
-.project-container {
-    width: 1270px;
-}
-
 .art-thumbnail:hover {
     cursor: pointer;
 }
@@ -136,4 +128,22 @@ body {
 
 .navi-right {
     padding-right: 10px;
+}
+
+.section-title {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.section-graphic {
+    width: 200px;
+}
+
+.section-title:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.back-section {
+    cursor: pointer;
 }

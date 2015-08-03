@@ -54,6 +54,21 @@ view: 'homepage'
         },
         '/alergy-carousel' : {
         view: 'alergy-carousel'
+        },
+        '/autocruise-carousel': {
+        view: 'autocruise-carousel'
+        },
+        '/boutique-carousel': {
+        view: 'boutique-carousel'
+        },
+        '/crazy-machine-carousel': {
+        view: 'crazy-machine-carousel'
+        },
+        '/editorial-carousel': {
+        view: 'editorial-carousel'
+        },
+        '/faces-carousel': {
+        view: 'faces-carousel'
         }
 
 
