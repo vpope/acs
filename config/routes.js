@@ -69,6 +69,27 @@ view: 'homepage'
         },
         '/faces-carousel': {
         view: 'faces-carousel'
+        },
+        '/ice-cream-girls-carousel': {
+        view: 'ice-cream-girls-carousel'
+        },
+        '/outsider-carousel': {
+        view: 'outsider-carousel'
+        },
+        '/primitive-carousel': {
+        view: 'primitive-carousel'
+        },
+        '/retro-carousel': {
+        view: 'retro-carousel'
+        },
+        '/sharpie-carousel': {
+        view: 'sharpie-carousel'
+        },
+        '/speed-carousel': {
+        view: 'speed-carousel'
+        },
+        '/technical-carousel': {
+        view: 'technical-carousel'
         }
 
 
