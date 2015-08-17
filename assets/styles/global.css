@@ -144,6 +144,13 @@ body {
     text-decoration: none;
 }
 
-.back-section {
-    cursor: pointer;
+.back {
+    background: #990000;
+    color: #ffffff;
+    border: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 55px;
 }
