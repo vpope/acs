@@ -53,7 +53,7 @@ module.exports = function(grunt) {
 			files: {
 				'.tmp/public/**/*.html': ['.tmp/public/min/production.min.js'],
 				'views/**/*.html': ['.tmp/public/min/production.min.js'],
-				'views/**/*.ejs': ['.tmp/public/min/production.min.js']
+				'views/**/*.ejs': ['.tmp/public/min/production.min.js' + (new Date()).getTime()]
 			}
 		},
 
@@ -68,7 +68,7 @@ module.exports = function(grunt) {
 			files: {
 				'.tmp/public/**/*.html': ['.tmp/public/min/production.min.js'],
 				'views/**/*.html': ['.tmp/public/min/production.min.js'],
-				'views/**/*.ejs': ['.tmp/public/min/production.min.js']
+				'views/**/*.ejs': ['.tmp/public/min/production.min.js?' + (new Date()).getTime()]
 			}
 		},
 
@@ -113,7 +113,7 @@ module.exports = function(grunt) {
 			files: {
 				'.tmp/public/index.html': ['.tmp/public/min/production.min.css'],
 				'views/**/*.html': ['.tmp/public/min/production.min.css'],
-				'views/**/*.ejs': ['.tmp/public/min/production.min.css']
+				'views/**/*.ejs': ['.tmp/public/min/production.min.css' + (new Date()).getTime()]
 			}
 		},
 
@@ -128,7 +128,7 @@ module.exports = function(grunt) {
 			files: {
 				'.tmp/public/index.html': ['.tmp/public/min/production.min.css'],
 				'views/**/*.html': ['.tmp/public/min/production.min.css'],
-				'views/**/*.ejs': ['.tmp/public/min/production.min.css']
+				'views/**/*.ejs': ['.tmp/public/min/production.min.css' + (new Date()).getTime()]
 			}
 		},
 
