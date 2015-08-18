@@ -47,13 +47,13 @@ module.exports = function(grunt) {
 			options: {
 				startTag: '<!--SCRIPTS-->',
 				endTag: '<!--SCRIPTS END-->',
-				fileTmpl: '<script src="%s"></script>',
+				fileTmpl: '<script src="%s?' + + (new Date()).getTime() + '"></script>',
 				appRoot: '.tmp/public'
 			},
 			files: {
 				'.tmp/public/**/*.html': ['.tmp/public/min/production.min.js'],
 				'views/**/*.html': ['.tmp/public/min/production.min.js'],
-				'views/**/*.ejs': ['.tmp/public/min/production.min.js' + (new Date()).getTime()]
+				'views/**/*.ejs': ['.tmp/public/min/production.min.js']
 			}
 		},
 
@@ -61,14 +61,14 @@ module.exports = function(grunt) {
 			options: {
 				startTag: '<!--SCRIPTS-->',
 				endTag: '<!--SCRIPTS END-->',
-				fileTmpl: '<script src="%s"></script>',
+				fileTmpl: '<script src="%s?' + + (new Date()).getTime() + '"></script>',
 				appRoot: '.tmp/public',
 				relative: true
 			},
 			files: {
 				'.tmp/public/**/*.html': ['.tmp/public/min/production.min.js'],
 				'views/**/*.html': ['.tmp/public/min/production.min.js'],
-				'views/**/*.ejs': ['.tmp/public/min/production.min.js?' + (new Date()).getTime()]
+				'views/**/*.ejs': ['.tmp/public/min/production.min.js?']
 			}
 		},
 
@@ -107,13 +107,13 @@ module.exports = function(grunt) {
 			options: {
 				startTag: '<!--STYLES-->',
 				endTag: '<!--STYLES END-->',
-				fileTmpl: '<link rel="stylesheet" href="%s">',
+				fileTmpl: '<link rel="stylesheet" href="%s?' + + (new Date()).getTime() + '">',
 				appRoot: '.tmp/public'
 			},
 			files: {
 				'.tmp/public/index.html': ['.tmp/public/min/production.min.css'],
 				'views/**/*.html': ['.tmp/public/min/production.min.css'],
-				'views/**/*.ejs': ['.tmp/public/min/production.min.css' + (new Date()).getTime()]
+				'views/**/*.ejs': ['.tmp/public/min/production.min.css']
 			}
 		},
 
@@ -121,14 +121,14 @@ module.exports = function(grunt) {
 			options: {
 				startTag: '<!--STYLES-->',
 				endTag: '<!--STYLES END-->',
-				fileTmpl: '<link rel="stylesheet" href="%s">',
+				fileTmpl: '<link rel="stylesheet" href="%s?' + + (new Date()).getTime() + '">',
 				appRoot: '.tmp/public',
 				relative: true
 			},
 			files: {
 				'.tmp/public/index.html': ['.tmp/public/min/production.min.css'],
 				'views/**/*.html': ['.tmp/public/min/production.min.css'],
-				'views/**/*.ejs': ['.tmp/public/min/production.min.css' + (new Date()).getTime()]
+				'views/**/*.ejs': ['.tmp/public/min/production.min.css']
 			}
 		},
 
