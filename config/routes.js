@@ -33,64 +33,104 @@ module.exports.routes = {
 
 '/': {
 view: 'homepage'
-},
+        },
         '/graphic': {
         view: 'graphic'
         },
         '/illustration': {
         view: 'illustration'
         },
-        '/ball-carousel' : {
+        '/ball' : {
         view: 'ball-carousel'
         },
-        '/cutouts-carousel' : {
+        '/cutouts' : {
         view: 'cutouts-carousel'
         },
-        '/grafic-carousel' : {
+        '/grafic' : {
         view: 'grafic-carousel'
         },
-        '/kitchen-carousel' : {
+        '/kitchen' : {
         view: 'kitchen-carousel'
         },
-        '/alergy-carousel' : {
+        '/alergy' : {
         view: 'alergy-carousel'
         },
-        '/autocruise-carousel': {
+        '/autocruise': {
         view: 'autocruise-carousel'
         },
-        '/boutique-carousel': {
+        '/boutique': {
         view: 'boutique-carousel'
         },
-        '/crazy-machine-carousel': {
+        '/crazy-machine': {
         view: 'crazy-machine-carousel'
         },
-        '/editorial-carousel': {
+        '/editorial': {
         view: 'editorial-carousel'
         },
-        '/faces-carousel': {
+        '/faces': {
         view: 'faces-carousel'
         },
-        '/ice-cream-girls-carousel': {
+        '/ice-cream-girls': {
         view: 'ice-cream-girls-carousel'
         },
-        '/outsider-carousel': {
+        '/outsider': {
         view: 'outsider-carousel'
         },
-        '/primitive-carousel': {
+        '/primitive': {
         view: 'primitive-carousel'
         },
-        '/retro-carousel': {
+        '/retro': {
         view: 'retro-carousel'
         },
-        '/sharpie-carousel': {
+        '/sharpie': {
         view: 'sharpie-carousel'
         },
-        '/speed-carousel': {
+        '/speed': {
         view: 'speed-carousel'
         },
-        '/technical-carousel': {
+        '/technical': {
         view: 'technical-carousel'
+        },
+        '/birds': {
+        view: 'birds-carousel'
+        },
+        '/black-chalk': {
+        view: 'blackchalk-carousel'
+        },
+        '/book-covers': {
+            view: 'book-covers-carousel'
+        },
+        '/botanicals': {
+            view: 'botanicals-carousel'
+        },
+        '/business': {
+            view: 'business-carousel'
+        },
+        '/circus': {
+            view: 'circus-carousel'
+        },
+        '/great-books': {
+            view: 'great-books-carousel'
+        },
+        '/hands': {
+            view:'hands-carousel'
+        },
+        '/metropolitan': {
+            view: 'metropolitan-carousel'
+        },
+        '/oneliners': {
+            view: 'oneliners-carousel'
+        },
+        '/sarcasm': {
+            view: 'sarcasm-carousel'
+        },
+        '/storyboards': {
+            view: 'storyboards-carousel'
+        },
+        '/winter-trees': {
+            view: 'winter-trees-carousel'
         }
+        
 
 
 /***************************************************************************
