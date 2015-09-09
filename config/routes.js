@@ -129,6 +129,12 @@ view: 'homepage'
         },
         '/winter-trees': {
             view: 'winter-trees-carousel'
+        },
+        '/ae-marketing': {
+            view: 'ae-marketing-carousel'
+        },
+        '/dentistry': {
+            view: 'dentistry-carousel'
         }
         
 
