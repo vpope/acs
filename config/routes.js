@@ -33,7 +33,7 @@ module.exports.routes = {
 
 '/': {
 view: 'homepage'
-        },
+},
         '/graphic': {
         view: 'graphic'
         },
@@ -98,45 +98,49 @@ view: 'homepage'
         view: 'blackchalk-carousel'
         },
         '/book-covers': {
-            view: 'book-covers-carousel'
+        view: 'book-covers-carousel'
         },
         '/botanicals': {
-            view: 'botanicals-carousel'
+        view: 'botanicals-carousel'
         },
         '/business': {
-            view: 'business-carousel'
+        view: 'business-carousel'
         },
         '/circus': {
-            view: 'circus-carousel'
+        view: 'circus-carousel'
         },
         '/great-books': {
-            view: 'great-books-carousel'
+        view: 'great-books-carousel'
         },
         '/hands': {
-            view:'hands-carousel'
+        view:'hands-carousel'
         },
         '/metropolitan': {
-            view: 'metropolitan-carousel'
+        view: 'metropolitan-carousel'
         },
         '/oneliners': {
-            view: 'oneliners-carousel'
+        view: 'oneliners-carousel'
         },
         '/sarcasm': {
-            view: 'sarcasm-carousel'
+        view: 'sarcasm-carousel'
         },
         '/storyboards': {
-            view: 'storyboards-carousel'
+        view: 'storyboards-carousel'
         },
         '/winter-trees': {
-            view: 'winter-trees-carousel'
+        view: 'winter-trees-carousel'
         },
         '/ae-marketing': {
-            view: 'ae-marketing-carousel'
+        view: 'ae-marketing-carousel'
         },
         '/dentistry': {
-            view: 'dentistry-carousel'
+        view: 'dentistry-carousel'
+        },
+        '/motion': {
+        view:'motion'
         }
-        
+
+
 
 
 /***************************************************************************

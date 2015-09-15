@@ -1,6 +1,6 @@
 footer {
     background-color: #990000;
-    height: 250px;
+    height: 155px;
     width: 100%;
     margin-top: 20px;
 }
@@ -33,7 +33,6 @@ body {
 }
 
 .contact-footer {
-    margin-top: 20px;
     color: #ffffff;
 }
 
@@ -163,4 +162,20 @@ body {
 
 .section-content {
     margin-left: -14px;
+}
+
+.right-carousel-bottom {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .text-right-carousel img {
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+}
+
+.acsvideo {
+    margin-right: 10px;
+    margin-top: 10px;
 }
