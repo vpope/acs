@@ -137,10 +137,32 @@ view: 'homepage'
         view: 'dentistry-carousel'
         },
         '/motion': {
-        view:'motion'
+        view:'motion-carousel'
+        },
+        '/foot-tools': {
+        view: 'foot-tool-carousel'
+        },
+        '/labels': {
+        view: 'labels-carousel'
+        },
+        '/logos-a': {
+        view: 'logos-a-carousel'
+        },
+        '/logos-b': {
+        view: 'logos-b-carousel'
+        },
+        '/mobility': {
+        view: 'mobility-carousel'
+        },
+        '/packaging': {
+        view: 'packaging-carousel'
+        },
+        '/typographic': {
+        view: 'typographic-carousel'
+        },
+        '/contact': {
+        view: 'contact'
         }
-
-
 
 
 /***************************************************************************
