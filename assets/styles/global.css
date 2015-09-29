@@ -214,5 +214,31 @@ body {
 .social-logo a img {
     width: 38px;
     padding-bottom: 2px;
-    padding-top: 3px;
+    padding-top: 5px;
+}
+
+.form-head {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.form-group {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-success {
+    background-color: #990000;
+    border-color: #787878;
+    margin-right: 10px;
+}
+
+.btn-success:hover {
+   background-color: #880000;
+   border-color: #787878; 
+}
+
+.cancel-btn {
+   border-color: #ADAAAA;
 }
