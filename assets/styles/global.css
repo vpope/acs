@@ -200,3 +200,19 @@ body {
     margin-top: -31px;
     float: left;
 }
+
+.partner-logo a img {
+    width: 115px;
+    padding-right: 15px;
+    margin-top: 26px;
+}
+
+.social-media {
+    float: right;
+}
+
+.social-logo a img {
+    width: 38px;
+    padding-bottom: 2px;
+    padding-top: 3px;
+}
