@@ -31,8 +31,9 @@ module.exports.routes = {
  *                                                                          *
  ***************************************************************************/
 
-'/': {
-view: 'homepage'
+        'post /api/email': 'ContactController.email',
+        '/': {
+        view: 'homepage'
         },
         '/graphic': {
         view: 'graphic'
