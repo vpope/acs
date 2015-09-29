@@ -33,7 +33,7 @@ module.exports.routes = {
 
 '/': {
 view: 'homepage'
-},
+        },
         '/graphic': {
         view: 'graphic'
         },
@@ -162,6 +162,9 @@ view: 'homepage'
         },
         '/contact': {
         view: 'contact'
+        },
+        '/jargons-flash-cards': {
+        view: 'jargons-flash-cards'
         }
 
 
