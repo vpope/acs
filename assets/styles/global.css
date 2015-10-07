@@ -1,7 +1,6 @@
 footer {
     background-color: #990000;
-    height: 155px;
-    width: 100%;
+    height: auto;
     margin-top: 10px;
 }
 
@@ -79,8 +78,8 @@ body {
 }
 
 .header,
-.footer {
-    width: 1270px;
+.footer-red {
+    width: 1240px;
     margin: 0 auto;
 }
 
@@ -187,14 +186,11 @@ body {
     height: 400px;
 }
 
-@media screen and (max-width: 991px) {
+@media all and (max-width: 991px) {
     .acsvideo,
     .acsvideoright {
         width: 100%;
         height: 400px;
-    }
-    .footer {
-        height: 100%;
     }
 }
 
@@ -206,7 +202,7 @@ body {
 }
 
 .partner-logo a img {
-    width: 105px;
+    width: 102px;
     padding-right: 15px;
     margin-top: 30px;
 }
@@ -218,7 +214,8 @@ body {
 }
 
 .social-logo {
-    padding-top: 120px;
+    padding-top: 125px;
+    padding-right: 10px;
 }
 
 .form-head {
@@ -261,7 +258,7 @@ body {
     color: black;
     padding-top: 58px;
     padding-left: 15px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: lighter;
 }
 
@@ -282,7 +279,7 @@ body {
     margin-top: -130px;
 }
 
-@media screen and (min-width: 1280) {
+@media all and (min-width: 1280) {
     .social-logo {
         visibility: hidden;
     }
@@ -292,3 +289,4 @@ body {
     height: 215px;
     width: 400px;
 }
+
