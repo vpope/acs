@@ -294,3 +294,32 @@ body {
 .footer-content-1 {
     margin-left: -12px;
 }
+
+@media (max-width: 1200px) {
+   .partners {
+       margin-left: 85px;
+   }
+}
+
+@media (max-width: 990px) {
+    .partners {
+        margin-left: 1px;
+        margin-top: 13px;
+    }
+    .partner-logo a img {
+        width: 93px;
+        margin-top: -8px;
+    }
+    .social-logo {
+        padding-top: 0px;
+        margin-top: -255px;
+    }
+    .contact-btn {
+       padding-bottom: 13px;
+   }
+}
+
+.contact-btn {
+    margin-bottom: -17px;
+}
+
