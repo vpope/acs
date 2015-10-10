@@ -349,6 +349,9 @@ body {
    footer {
        width: 100%;
    }
+   .footer-row {
+       pading-right: 10px;
+   }
 }
 
 .contact-btn {
