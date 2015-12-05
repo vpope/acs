@@ -31,7 +31,7 @@ module.exports.routes = {
  *                                                                          *
  ***************************************************************************/
 
-        'post /api/email': 'ContactController.email',
+'post /api/email': 'ContactController.email',
         '/': {
         view: 'homepage'
         },
@@ -166,6 +166,36 @@ module.exports.routes = {
         },
         '/jargons-flash-cards': {
         view: 'jargons-flash-cards'
+        },
+        '/cleveland-clinic': {
+        view: 'cleveland-clinic-carousel'
+        },
+        '/digital-world': {
+        view: 'digital-world-carousel'
+        },
+        '/duke-energy': {
+        view: 'duke-energy-carousel'
+        },
+        '/numbers': {
+        view: 'numbers-carousel'
+        },
+        '/book-covers2': {
+        view: 'book-covers2-carousel'
+        },
+        '/photo-realism': {
+        view: 'photo-realism-carousel'
+        },
+        '/places': {
+        view: 'vplaces-carousel'
+        },
+        '/posters': {
+        view: 'posters-carousel'
+        },
+        '/silhouette': {
+        view: 'silhouette-carousel'
+        },
+        '/virginia-slims': {
+        view: 'virginia-slims-carousel'
         }
 
 
