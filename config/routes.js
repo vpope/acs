@@ -186,7 +186,7 @@ module.exports.routes = {
         view: 'photo-realism-carousel'
         },
         '/places': {
-        view: 'vplaces-carousel'
+        view: 'places-carousel'
         },
         '/posters': {
         view: 'posters-carousel'
